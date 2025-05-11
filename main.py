@@ -5,9 +5,9 @@ import json
 def generate_webhook():
     url = "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/PYTHON"
     payload = {
-        "name": "John Doe",
-        "regNo": "REG12347",   
-        "email": "john@example.com"
+        "name": "Vidit Dubey",
+        "regNo": "0827AL221144",   
+        "email": "viditdubey2003@gmail.com"
     }
 
     response = requests.post(url, json=payload)
